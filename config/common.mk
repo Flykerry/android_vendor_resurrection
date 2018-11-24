@@ -183,7 +183,8 @@ PRODUCT_PACKAGES += \
 
 # LocationProvider
 PRODUCT_PACKAGES += \
-    PhoneLocationProvider
+    PhoneLocationProvider \
+    ForceStop
 
 # Berry styles
 PRODUCT_PACKAGES += \
