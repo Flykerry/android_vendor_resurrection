@@ -17,7 +17,7 @@
 # -----------------------------------------------------------------
 # Resurrection Remix OTA update package
 
-RR_TARGET_PACKAGE := $(PRODUCT_OUT)/$(RR_VERSION).zip
+RR_TARGET_PACKAGE := $(PRODUCT_OUT)/jsbeyond-$(RR_VERSION).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
