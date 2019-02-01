@@ -15,3 +15,4 @@ PRODUCT_PACKAGES += \
 
 # Include Lineage LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/rr/overlay/dictionaries
+endif
