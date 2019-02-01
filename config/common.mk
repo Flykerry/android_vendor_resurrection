@@ -53,10 +53,10 @@ endif
 
 # Phonelocation!
 PRODUCT_COPY_FILES +=  \
-    vendor/lineage/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
+    vendor/rr/prebuilt/common/media/location/suda-phonelocation.dat:system/media/location/suda-phonelocation.dat
 # World SPN overrides list
 PRODUCT_COPY_FILES += \
-    vendor/lineage/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
+    vendor/rr/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
 
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
@@ -172,7 +172,7 @@ PRODUCT_PACKAGES += \
     Eleven \
     ExactCalculator \
     LockClock \
-    Trebuchet \
+    TrebuchetQuickStep \
     Updater \
     WallpaperPicker \
     WeatherProvider
